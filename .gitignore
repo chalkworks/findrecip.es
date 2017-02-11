@@ -46,3 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *node_modules/*
+*build/*
+
+node_modules/
+dist/
+npm-debug.log
