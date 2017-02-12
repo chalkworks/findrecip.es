@@ -1,18 +1,15 @@
 <template>
   <div id="app">
-    <top-menu></top-menu>
-    <div class="ui container">
-      <router-view></router-view>
-    </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import TopMenu from './components/TopMenu'
-
-  export default {
-    components: {
-      'top-menu': TopMenu
-    }
-  }
+export default {
+  name: 'app'
+}
 </script>
+
+<style>
+/* Global App Styles */
+</style>
