@@ -15,12 +15,12 @@
         recipes: [{
           name: 'Apple Pie',
           picture: '',
-          link: '/recipes/apple-pie'
+          link: '/recipe/apple-pie'
         },
         {
           name: 'Italian Pizza',
           picture: '',
-          link: '/recipes/italian-pizza'
+          link: '/recipe/italian-pizza'
         }]
       }
     },

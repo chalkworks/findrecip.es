@@ -1,7 +1,8 @@
 <template>
   <div class="recipe col">
-    <router-link :to="recipe.link"></router-link>
+    <router-link :to="recipe.link">
     <h3>{{recipe.name}}</h3>
+    </router-link>
   </div>
 </template>
 
@@ -27,4 +28,6 @@
   h3
     color header-color
     font-weight 700
+  a
+    text-decoration none
 </style>
