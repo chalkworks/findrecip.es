@@ -1,8 +1,8 @@
 {
-  "name": "twitty",
+  "name": "FindRecipes",
   "version": "1.0.0",
-  "description": "This is a classword for vue.js for real world course",
-  "author": "Toey <toey.anuntachai@gmail.com>",
+  "description": "Hello ChalkWorks",
+  "author": "chalkworks@gmail.com",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
