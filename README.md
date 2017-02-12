@@ -28,3 +28,8 @@ npm run build --report
   - `router`: Router Setup
     -  `index.js`: This is the main file for defining routes
 - `static`: used for any static files NOT used in components
+
+## Component CSS Style guide
+
+- All CSS should be written in Stylus, by providing `lang="stylus"` in the `style` element of the component.
+- All components should use the variables provided in `./assets/config.styl`

@@ -10,6 +10,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus">
 /* Global App Styles */
+body {
+  font-family: "Inconsolata", monospace;
+}
 </style>
