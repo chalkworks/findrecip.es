@@ -1,7 +1,7 @@
 <template>
   <div class="recipes">
     <div class="row">
-      <Recipe-Card v-for="recipe in recipes" :recipe="recipe"></Recipe-Card>
+      <RecipeCard v-for="recipe in recipes" :recipe="recipe"></RecipeCard>
     </div>
   </div>
 </template>
