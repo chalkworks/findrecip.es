@@ -1,29 +1,34 @@
 <template>
   <div class="recipes">
     <div class="row">
-      <Recipe v-for="recipe in recipes" :recipe="recipe"></Recipe>
+      <Recipe-Card v-for="recipe in recipes" :recipe="recipe"></Recipe-Card>
     </div>
   </div>
 </template>
 
 <script>
-  import Recipe from './Recipe.vue'
+  import RecipeCard from './RecipeCard.vue'
   export default {
     name: 'Recipes',
     data () {
       return {
         recipes: [{
           name: 'Apple Pie',
-          picture: ''
+          picture: '',
+          link: '/recipes/apple-pie'
         },
         {
           name: 'Italian Pizza',
-          picture: ''
+          picture: '',
+          link: '/recipes/italian-pizza'
         }]
       }
     },
+    created () {
+      // fetch recipes from API here
+    },
     components: {
-      Recipe
+      RecipeCard
     }
   }
 </script>

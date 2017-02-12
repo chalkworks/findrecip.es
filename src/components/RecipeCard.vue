@@ -1,12 +1,13 @@
 <template>
   <div class="recipe col">
+    <router-link :to="recipe.link"></router-link>
     <h3>{{recipe.name}}</h3>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Recipe',
+    name: 'RecipeCard',
     props: ['recipe']
   }
 </script>
