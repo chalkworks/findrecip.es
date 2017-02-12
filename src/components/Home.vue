@@ -6,21 +6,22 @@
         <h5>discover delicious recipes</h5>
       </div>
     </div>
+    <Recipes></Recipes>
   </div>
 </template>
 
 <script>
+import Recipes from './Recipes.vue'
 export default {
-  name: 'home'
+  name: 'home',
+  components: {
+    Recipes
+  }
 }
 </script>
 
 <style scoped lang="stylus">
 @import "../assets/css/config.styl"
-
-.home
-  width 100%
-
 
 .header
   h1

@@ -12,7 +12,8 @@ export default {
 
 <style lang="stylus">
 /* Global App Styles */
-body {
-  font-family: "Inconsolata", monospace;
-}
+@import "./assets/css/config.styl"
+body
+  font-family "Inconsolata" monospace
+  background light-background
 </style>
